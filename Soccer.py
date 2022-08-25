@@ -19,8 +19,8 @@ while counter <= 8:
         lose += 1
         counter += 1
     else:
-        print('emtiaz bayad bein 0, 1 ya 3 bashad (0 baraye bakht, 1 baraye mosavi va 3 baraye bord)')
-print('emtiaz nahayi team: ', points)
-print('tedad bord: ', win)
-print('tedad bakht: ', lose)
-print('tedad mosavi: ', draw)
+        print(' your score should be between 0, 1 or 3 (0 for lose , 1 foe equal and 3 for win)')
+print(' final score: ', points)
+print(' numbers of winning: ', win)
+print(' numbers of lose: ', lose)
+print(' numbers of equal: ', draw)
